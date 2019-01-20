@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  padding-top: 2.5em;
+}
+#main {
+  margin: auto;
+  max-width: 1000px;
+  padding: 2.5em;
+  background-color: #999;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  border: 1px solid whitesmoke;
+  border-radius: 2em;
+  box-shadow: 11px 10px 41px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 41px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 41px -2px rgba(0, 0, 0, 0.75);
+}
+#title {
+  font-size: 2.5em;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
+}
+.lead {
+  font-size: 1.5em;
+}
+img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+figure {
+  background-color: #777;
+  padding: 2em;
+  border-radius: 1.5em;
+}
+#img-div {
+  padding: 2em 1.5em;
+  padding: 0;
+}
+#img-caption {
+  padding: 1.5em 3em;
+  font-weight: 700;
+}
+ul {
+  list-style: none;
+  text-align: left;
+}
+#tribute-info > p {
+  padding-top: 1.5em;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+li {
+  text-align: left;
+  padding-left: 5em;
+  line-break: auto;
+  line-height: 1.8;
+  text-indent: 0;
+}
+.quote {
+  font-size: 2em;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.ref {
+  font-size: 1.3rem;
+}
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 3em;
+}
+
+/*Media Query*/
+@media (max-width: 575.98px) {
+  li {
+    padding-left: 0;
+  }
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  li {
+    padding-left: 0.5em;
+  }
+}
